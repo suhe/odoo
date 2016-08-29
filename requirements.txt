@@ -18,7 +18,6 @@ mock==1.0.1
 ofxparse==0.14
 passlib==1.6.2
 psycogreen==1.0
-psycopg2==2.5.4
 pyPdf==1.13
 pypiwin32==219
 pydot==1.0.2

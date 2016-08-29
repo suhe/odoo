@@ -4,14 +4,14 @@
     'version': '1.0.0',
     'category': 'Point Of Sale',
     'sequence': 3,
-    'author': 'Thierry Godin',
+    'author': 'Suhendar',
     'summary': 'Manage cashiers for Point Of Sale',
     'description': " Manage several cashiers for each Point Of Sale",
     'depends': ["point_of_sale"],
     'data': [
         #'security/pos_cashier_security.xml',
         #'security/ir.model.access.csv',
-        #'cashier_view.xml',
+        'pos_cashier_view.xml',
         #'order_cashier_view.xml',
     ],
     'js': [
