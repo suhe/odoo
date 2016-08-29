@@ -39,4 +39,4 @@ To fetch odoo merge pull requests refs use this command:
 
 	
 Start Odoo Server 
-python odoo.py -w 123 -r root -d openerp --addons-path=addons	
+python odoo.py -w 123 -r root --addons-path=addons	
