@@ -1,9 +1,25 @@
 .o_web_client .openerp {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.o_web_client .openerp .btn-primary {
-    background-color: #7e376b;
+.o_web_client .openerp .btn {
+    text-transform: uppercase;
     border: none;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.o_web_client .openerp .btn-primary {
+    background-size: 200%;
+    background-position: 50%;
+}
+.o_web_client .openerp .btn-primary:focus {
+    background-color: #198c75;
+}
+.btn-primary:hover,
+.btn-primary:active:hover {
+    background-color: #14725f;
 }
 #appsbar_toggle {
     float: left;
