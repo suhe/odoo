@@ -11,7 +11,9 @@ Odoo 9 Custom Theme for Odoo Community Open ERP
     'images':[
         #'images/sales.png'
     ],
-    'depends' : ['base'],
+    'depends' : [
+        'base'
+    ],
     'data':[
         'views.xml',
         ],

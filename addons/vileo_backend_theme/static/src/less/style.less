@@ -1,131 +1,124 @@
-// Put Loading indicator in the right bottom of the screen 
-.o_web_client .openerp .oe_loading {
-    background-color: darken(@brand-primary, 13.5%) !important;
-    top: inherit;
+.o_web_client .openerp {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.o_web_client .openerp .btn-primary {
+    background-color: #7e376b;
+    border: none;
+}
+#appsbar_toggle {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 16px 8px;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    z-index: 99999;
+}
+#appsbar_toggle:focus {
+    outline: none;
+}
+#oe_main_menu_navbar {
+    -webkit-box-shadow: 0px 0px 8px #666666;
+    box-shadow: 0px 0px 8px #666666;
+    border: none;
+}
+#oe_main_menu_navbar .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 30px;
+}
+#oe_main_menu_navbar li a{
+    font-size: 14px !important;
+    padding: 14px 10px !important;
+    margin-top: 0 !important;
+    line-height: 22px !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a,.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #7e376b;
+    color: #fff;
+}
+#oe_main_menu_placeholder {
+    background-color: #a24689;
+}
+.o_web_client .openerp .oe_leftbar {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 5px 0;
+}
+.o_web_client .openerp .oe_leftbar a.oe_logo img {
+    margin: 14px;
+}
+.o_web_client .openerp .oe_leftbar .oe_footer {
+    display: none;
+}
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container {
+    position: absolute;
+    top: 105px;
     bottom: 0;
     right: 0;
-    padding: 5px 50px;
-    border-radius: 0 !important;
-    opacity: 0.8;
+    left: 0;
 }
-// Left Menu Bar =========================================
-
-// Toggle left menu bar
-.ul_toggle_leftmenu {
-    padding-left: 0px;
-    list-style: outside none none;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
-    margin-bottom: 0px !important;
-    max-width: 50px;
+.o_web_client .openerp .nav-pills > li > a {
+    border-radius : 0px;
 }
-.toggle_leftmenu {
-    color: #FFF !important;
-    padding: 14px 14px;
+.o_web_client .openerp .nav-pills > li.active > a,
+.o_web_client .openerp .openerp a.list-group-item.active > a {
+    color: #ffffff;
+    background-color: #a24689;
 }
-.toggle_leftmenu:hover {
-    color: #FFF !important;
-    cursor: pointer;
-    background-color: darken(@brand-primary, 13.5%);
+.o_web_client .openerp .nav-pills > li > a:hover,
+.o_web_client .openerp .openerp a.list-group-item > a:hover {
+    color: #ffffff;
+    background-color: #a24689;
 }
-
-// Change font & color leftbar
-.openerp .oe_leftbar .oe_secondary_menus_container {
-    font-family: Ubuntu;
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container .oe_secondary_menu .oe_secondary_menu_section {
+    padding: 7px 15px;
+    margin-left: 0px;
+    color: #4c4c4c;
 }
-
-.openerp .oe_secondary_menu_section {
-    color: @brand-primary;
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container .oe_secondary_menu .oe_secondary_menu_section .active {
+    background-color: #eee;
 }
-
-.openerp .oe_secondary_menu_section > .oe_menu_leaf {
-    color: @brand-primary;
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container .oe_secondary_menu .oe_secondary_submenu.nav-pills li > a {
+    padding: 7px 15px 7px 30px;
 }
-
-.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
-    background-color: @brand-primary !important;
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container .oe_secondary_menu .oe_secondary_submenu .oe_secondary_submenu li {
+    margin-left: 0px;
 }
-
-// White background
-.openerp .oe_leftbar {
-    background: #ffffff none repeat scroll 0 0 !important;
+.o_web_client .openerp .oe_leftbar .oe_secondary_menus_container .oe_secondary_menu .oe_secondary_submenu .oe_secondary_submenu.nav-pills li > a {
+    padding: 7px 15px 7px 45px;
 }
-
-// Leftbar notifications
-.openerp .badge {
-    background-color: @brand-primary;
+.o_web_client .openerp.oe_webclient .oe_application {
+    overflow-x: hidden;
 }
-
-// Navbar =========================================
-#oe_main_menu_navbar {
-    .box-shadow(0px 0px 8px #666666);
-    border: none;
-    .navbar-collapse {
-        padding-right: 16px;
-        padding-left: 16px;
-    }
+.o_web_client .openerp.oe_webclient .oe_application .oe-control-panel {
+  background-color: inherit;
 }
-
-#oe_main_menu_navbar,
-.navbar-nav {
-    li {
-        a, button {
-            font-size: 14px !important;
-            padding: 14px 10px !important;
-            margin-top: 0 !important;
-            line-height: 21px !important;
-        }
-    }
-    .dropdown-menu {
-        li {
-            a, button {
-                padding: 4px 10px !important;
-                font-size: 14px !important;
-			}
-        }
-    }
+.o_web_client .openerp.oe_webclient .oe_application .oe-control-panel .oe-cp-title .oe-view-title {
+  background-color: inherit;
+  padding: 5px 5px;
 }
-
-// Align green progress indicator
-#oe_main_menu_navbar .o_planner_systray > .progress {
-    margin-top: 18px !important;
+.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-list .o_list_view .oe_list_content > thead > tr th {
+    padding: 0px;
 }
-
-// Add some space in button groups
-//.btn-group > .btn, .btn-group-vertical > .btn {
-//    float: left;
-//    margin: 3px;
-//    position: relative;
-//}
-
-// =========================================
-// Make formwidth relative to screen
-.openerp .oe_form_sheet_width {
-    max-width: 90%;
+.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-list .o_list_view .oe_list_content > thead > tr.oe_list_header_columns th {
+    padding: 10px 6px;
 }
-
-// Explorer 11 fix to use fullscreen
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
-	.oe-view-manager-view-kanban, .oe-view-manager-view-form, .oe-view-manager-view-list, .oe-view-manager-view-calendar, .oe-view-manager-view-pivot, .oe-view-manager-view-graph {
-        width: 100% !important;
-	}
-
-	// Fix user preference height	
-	.modal .modal-content .modal-body .oe-view-manager-content {
-		position: static;
-		height: 400px;
-	}
-	
-	// Fix salesboard width
-	.oe-view-manager-view-sales_team_dashboard {
-		width: 100%;
-	}
-
+.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-list .o_list_view .oe_list_content > tbody > tr {
+    height: auto;
 }
-
-
-
+.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-list .o_list_view .oe_list_content > tbody > tr > td.oe_list_field_cell {
+    padding: 10px 6px;
+}
+.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-list .o_list_view .oe_list_content > tbody > tr:nth-child(odd) {
+  background-image: none;
+  background-color: #F9F9F9;
+}
 
