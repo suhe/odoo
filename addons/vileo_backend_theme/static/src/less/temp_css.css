@@ -652,11 +652,7 @@
 .o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-form .oe_formview .oe_form_container .oe_form .oe_form_configuration > div {
   padding-top: 10px;
 }
-.o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-form .oe_formview .oe_form_sheetbg {
-  padding: 10px 20px;
-  background-image: none;
-  background-color: #999999 !important;
-}
+oe-view-manager-content
 @media screen and (max-width: 768px) {
   .o_web_client .openerp.oe_webclient .oe_application .oe-view-manager .oe-view-manager-content .oe-view-manager-view-form .oe_formview .oe_form_sheetbg {
     padding: 5px 5px;

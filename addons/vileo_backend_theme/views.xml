@@ -6,6 +6,7 @@
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
                 <link rel="stylesheet" href="/vileo_backend_theme/static/src/less/style.less"/>
                 <link rel="stylesheet" href="/vileo_backend_theme/static/src/less/mobile-style.less"/>
+                <link rel="stylesheet" href="/vileo_backend_theme/static/src/less/bootswatch.less"/>
                 <script type="text/javascript" src="/vileo_backend_theme/static/src/js/toggle_leftbar.js"></script>
             </xpath>
         </template>
