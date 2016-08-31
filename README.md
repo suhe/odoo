@@ -40,3 +40,11 @@ To fetch odoo merge pull requests refs use this command:
 	
 Start Odoo Server 
 python odoo.py -w 123 -r root --addons-path=addons	
+
+Hi,
+
+I make a search how to print a PDF with Qweb in ODOO V8, But I didn't find any solution, Then I read the source code how to use wkhtmltopdf  to print a PDF and I find the solution.
+
+Install wkhtmltopdf : http://wkhtmltopdf.org/downloads.html  (Windows (MSVC 2013))
+In system variable on windows add in PATH: C:\Program Files\wkhtmltopdf\bin
+Restart the OS(systeme windows)
