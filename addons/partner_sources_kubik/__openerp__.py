@@ -17,7 +17,7 @@
     ],
     "data": [
         "views/res_partner_sources.xml",
-        #"views/res_partner.xml"
+        "views/res_partner.xml"
     ],
 
 }
