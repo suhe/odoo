@@ -7,9 +7,18 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <data>
-               <xpath expr="//field[@name='website']" position="after">
+                <xpath expr="//field[@name='website']" position="before">
+                    <field name='customer_from'/>
+                    <field name='status'/>
+                </xpath>
+
+                <xpath expr="//field[@name='website']" position="after">
                     <field name='pic' attrs="{'invisible': [('is_company','=',False)]}"/>
+                    <field name='pic_position' attrs="{'invisible': [('is_company','=',False)]}"/>
                     <field name='group_status'/>
+                </xpath>
+                <xpath expr="//field[@name='phone']" position="after">
+                    <field name='phone_ext' attrs="{'invisible': [('is_company','=',False)]}"/>
                 </xpath>
             </data>
         </field>
