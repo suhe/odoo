@@ -13,7 +13,7 @@
         <field name="model">res.partner.sector</field>
         <field name="arch" type="xml">
             <tree string="Sectors" editable="top">
-                <field name="name"/>
+                <field name="name" />
                 <!--<field name="parent_id"/>-->
             </tree>
         </field>

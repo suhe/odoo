@@ -2,5 +2,6 @@ from openerp import fields,models
 
 class ResPartnerSources(models.Model):
     _name = 'res.partner.sources'
-    _order = 'source asc'
-    source = fields.Char(string="Source",required=True)
+    _order = "name"
+    _description = "Source Name"
+    name = fields.Char(required=True, translate=True)
