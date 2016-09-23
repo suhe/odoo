@@ -1,0 +1,7 @@
+yum install postgresql-devel
+export PATH=$PATH:/usr/pgsql-x.x/bin
+#where x.x is your version, such as /usr/pgsql-9.2./bin.
+
+sudo yum -y install python-devel libxslt-devel libffi-devel openssl-devel
+
+
