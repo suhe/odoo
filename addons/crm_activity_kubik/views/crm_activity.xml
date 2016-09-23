@@ -64,15 +64,12 @@
             <field name="name">CRM Activity</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">crm.activity.kubik</field>
-            <field name="view_mode">tree,form,kanban,calendar,pivot,graph</field>
+            <field name="view_mode">tree,form</field>
              <field name="view_ids"
                eval="[(5, 0, 0),
                       (0, 0, {'view_mode': 'tree', 'view_id': ref('crm_view_tree_activity')}),
                       (0, 0, {'view_mode': 'form', 'view_id': ref('crm_view_form_activity')}),
-                      (0, 0, {'view_mode': 'kanban'}),
-                      (0, 0, {'view_mode': 'calendar'}),
-                      (0, 0, {'view_mode': 'pivot'}),
-                      (0, 0, {'view_mode': 'graph'})]"/>
+                      ]"/>
             <field name="help" type="html">
             <p>
                Here is the list of your activity. Those are linked to your activity.
