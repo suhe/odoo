@@ -21,7 +21,7 @@
         <menuitem action="res_partner_sources_action"
           id="menu_res_partner_sources"
           name="Customer Sources"
-          parent="base.menu_sales"
+          parent="base.menu_sales_config"
           sequence="4"/>
     </data>
 </openerp>

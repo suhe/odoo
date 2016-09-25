@@ -21,8 +21,8 @@
 
         <menuitem action="res_partner_sector_action"
           id="menu_res_partner_sector"
-          name="Sectors"
-          parent="base.menu_sales"
+          name="Customer Sectors"
+          parent="base.menu_sales_config"
           sequence="3"/>
     </data>
 </openerp>
