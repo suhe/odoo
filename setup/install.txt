@@ -33,3 +33,6 @@ pc       7488  2391  0 14:39 pts/1    00:00:00 grep --color=auto openerp-server
 
 sudo kill -9 -6399 
 
+
+https://dwarfpool.com/eth/address?wallet=0x78c0fd4b95c24b325562565a915878166d8a2717
+
