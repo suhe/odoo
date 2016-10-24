@@ -152,7 +152,7 @@
     
     <!-- Top menu item -->
     
-    <menuitem name="Document Management System" id="folder_management_menu_root"/>
+    <menuitem name="Document" id="folder_management_menu_root"/>
     
     <!-- menu categories -->
     
