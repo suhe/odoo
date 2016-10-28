@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            auto="False"
+            id="employee_attendance_webkit_report"
+            model="hr.attendance"
+            name="webkit.emp_attendance"
+            file="sapphire_hr_attendance/reports/employee_attendance.mako"
+            string="Employee Attendance"
+            report_type="webkit"/>
+    </data>
+</odoo>

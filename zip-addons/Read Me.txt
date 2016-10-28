@@ -1,0 +1,9 @@
+
+To be able to install and use this module, you need to take the following steps:
+  1- Copy & Paste the 'extra_reports' folder into <openERP>openerp/addons/
+  2- Enable Technical Features for the current user
+  3- Go to Settings->Update Module List
+  4- Go to Settings->Installed Modules & change the filter to "Print Journal Entry"
+  5- Install & Enjoy
+
+Author: Anas Taji

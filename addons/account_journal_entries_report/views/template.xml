@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report auto="False"
+                id="account_journal_entries_report"
+                model="account.move"
+                name="account.journal.entries.report"
+                file="account_journal_entries_report/views/account_journal_entries_report_html.mako"
+                string="Report Journal Entries"
+                report_type="webkit"
+                attachment_use="1"/>
+    </data>
+</odoo>

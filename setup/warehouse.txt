@@ -1,0 +1,16 @@
+accounting
+point of sale
+document
+crm
+sales
+supplier (SRM)
+purchase
+Employee => Users
+Inventory
+warehouse
+Asset / Equipment
+Leaves
+
+
+Expense
+Payroll

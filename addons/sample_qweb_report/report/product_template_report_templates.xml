@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="sample_qweb_report.product_template_report_template_style">
+            .page {
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+				width: 100%;
+			}
+        </template>
+
+        <template id="sample_qweb_report.product_template_report_template_layout" inherit_id="web.layout">
+			<xpath expr="//head" position="inside">
+				<style type="text/css">
+					<t t-call="sample_qweb_report.product_template_report_template_style"/>
+				</style>
+			</xpath>
+		</template>
+
+        <template id="sample_qweb_report.product_template_report_template">
+			<t t-call="report.html_container">
+				<t t-foreach="docs" t-as="o">
+					<div class="page">
+						<t t-esc="o.name" />
+					</div>
+				</t>
+			</t>
+		</template>
+
+        <report id="sample_qweb_report.product_template_report"
+                name="sample_qweb_report.product_template_report_template"
+                file="sample_qweb_report.product_template_report_template"
+                model="product.template"
+                report_type="qweb-pdf"
+                string="Product Report"
+                menu="True"
+        />
+
+
+    </data>
+</odoo>
